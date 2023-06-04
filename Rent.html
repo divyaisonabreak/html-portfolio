@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto+Slab&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Rent.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <style>
+        /* Navigation CSS */
+        #nevbar {
+            top: 0;
+            position: fixed;
+            width: 100%;
+            display: flex;
+            height: 90px;
+            background-color: #00467f;
+        }
+
+        #nevbar .nav {
+            display: block;
+        }
+
+        #nevbar nav {
+            margin: auto;
+            margin-left: 200px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #nevbar img {
+            width: 150px;
+            height: 90px;
+        }
+
+        #nevbar ul {
+            text-align: center;
+            display: flex;
+        }
+
+        #nevbar li {
+            font-size: 1.3rem;
+            list-style: none;
+        }
+
+        #nevbar li a {
+            border-radius: 50px;
+            color: white;
+            text-decoration: none;
+            margin-top: 50px;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        #nevbar li a:hover {
+            color: #00467f;
+            background-color: white;
+        }
+
+        #nevbar .search {
+            margin: auto;
+        }
+
+        #nevbar input {
+            padding: 2px 15px;
+            height: 30px;
+            width: 250px;
+            border-radius: 50px;
+        }
+
+        /* end CSS */
+        #end {
+            color: white;
+            background-color: #00467f;
+        }
+
+        #end .container {
+            margin: 0px 150px;
+        }
+
+        #end .container .colums {
+            padding: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .colums .c1 img {
+            box-sizing: border-box;
+            width: 200px;
+            height: 120px;
+        }
+
+        .colums .c1 .c2 .c3 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #end .up {
+            text-align: center;
+        }
+
+        #end .up a {
+            color: white;
+            text-decoration: none;
+
+        }
+
+        /* footer CSS */
+        footer {
+            text-align: center;
+            background: black;
+            color: white;
+            padding: 9px 20px;
+        }
+
+        /* Utility Classes CSS */
+        .b {
+            cursor: pointer;
+            text-decoration: none;
+            color: #00467f;
+            display: block;
+            font-size: 1.3rem;
+            padding: 2px 20px;
+            border: 2px solid black;
+            background-color: white;
+            margin: 10px auto;
+            /* border-radius: 30px; */
+            display: flex;
+        }
+
+        .b:hover {
+            color: white;
+            background-color: #00213b;
+        }
+
+        .h-primary {
+            color: black;
+            font-size: 2.8rem;
+            padding: 12px;
+        }
+
+        .h-secondry {
+            text-decoration: underline;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            padding: 12px;
+        }
+
+        .links {
+            border-radius: 50px;
+            color: white;
+            text-decoration: none;
+            margin-top: 50px;
+            padding: 20px;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="nevbar">
+        <div class="nav">
+            <a href="index.html"> <img src="Photos/Logo.png" alt=""></a>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="Buy.html">Buy</a> </li>
+                <li> <a href="Sell.html">Sell</a> </li>
+                <li> <a href="Rent.html">Rent</a> </li>
+                <li> <a href="About Us.html">About Us</a> </li>
+                <li> <a href="Contact Us.html"> Contact Us</a> </li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="Search">
+        </div>
+    </section>
+
+    <section id="img">
+        <!-- <div>
+            <h1>
+                We are here to help you.
+            </h1>
+            <input type="search" name="" id="">
+        </div> -->
+    </section>
+
+    <section id="mid">
+        <div class="info">
+            <div class="content">
+                <h2>
+                    1. THE RENT
+                </h2>
+                <p>
+                    First and major, can you fairly manage to pay to stay here? Before significantly considering a
+                    condo, you want to noticeably recall your price range. Conduct a piece of online studies to get an
+                    experience of the every day rental charges in the neighborhood. If you’re willing to pay a high
+                    price for a positive region, then you definitely want to discover different ways to cut back on
+                    charges. Or you could want to discover roommates to assist cowl the prices. Also, hold in thought
+                    that if a condominium’s lease is surprisingly low (read: too suitable to be real) in comparison to
+                    different rentals in the place, then this will be a massive pink flag. Bottom line: make sure you
+                    realize the market before searching at residences and negotiating a rate.
+                </p>
+            </div>
+            <div class="content">
+                <h2>
+                    2. THE QUALITY
+                </h2>
+                <p>
+                    Don’t accept it as true with the ones pretty pix you notice online. Before you hire an apartment,
+                    you should set up to peer the area in-individual. Keep in mind that beauty issues, which include
+                    damaged blinds or scratches on the wall, maybe fixed – probable by way of your landlord. But deeper
+                    problems may be a demonstration that the condominium hasn’t been properly looked after. As you
+                    peruse the rental, search for fitness and safety troubles, including malicious program issues,
+                    rodents, leaky faucets, water harm, lead paint, asbestos, grimy air filters, mold, broken warmness,
+                    and air-con systems, rust, damaged home windows, and electric issues.
+                </p>
+            </div>
+            <div class="content">
+                <h2>
+                    3. THE LEASE
+                </h2>
+                <p>
+                    Before signing a rent, I strongly advise having a local Realtor or attorney appearance over the rent
+                    to make certain it’s a) a standard rent without surprises and b) valid. Read over the rent to make
+                    certain it suits your desires as well. For example, if you plan on subletting your apartment in the
+                    destiny, does this rent allow you to do this? Be certain to also take a look at whether the lease is
+                    a 6-month, 365 days or month-to-month type of rent; what date the rent is due every month; whether
+                    or not roommates are allowed; who is accountable for the protection; any parking guidelines; and
+                    whether your deposit is refundable.
+                </p>
+            </div>
+            <div class="content">
+                <h2>
+                    4. THE UTILITY COSTS
+                </h2>
+                <P>
+                    Don’t overlook approximately software fees! In addition to the month-to-month rent, you’ll maximum
+                    probably need to pay for diverse utilities during the time you stay there. These utilities include
+                    water, fuel, aircon, sewer, garbage, and strength – among others. Your rent needs to absolutely lay
+                    out what utilities you're answerable for covering. Some utilities can be included within the lease.
+                    If you've got any questions about who pays for what, make sure to double-test with your landlord
+                    before signing the hire.
+                </P>
+            </div>
+        </div>
+
+
+    </section>
+    <hr>
+    <section id="form">
+        <div class="form">
+            <div class="inq">
+                <h2>
+                    Inquire Now
+                </h2>
+                <p>
+                    You all the questions are answered here as soon as possible,
+                </p>
+                <p>
+                    please feel free to neet in office hours or book and appointment.
+                </p>
+            </div>
+            <div class="hours">
+                <h3>
+                    Office hours
+                </h3>
+                <div>
+                    Monday - 9 am to 6 pm
+                </div>
+                <div>
+                    Tuseday - 9 am to 6 pm
+                </div>
+                <div>
+                    Wednesday - 9 am to 6 pm
+                </div>
+                <div>
+                    Thusday - 9 am to 6 pm
+                </div>
+                <div>
+                    Friday - 9 am to 3 pm
+                </div>
+                <div>
+                    Saturday - CLOSED
+                </div>
+                <div>
+                    Sunday - CLOSED
+                </div>
+            </div>
+            <div class="app">
+                <label for="Meeting time">Book appointment: </label>
+                <input type="datetime-local" value="2022-04-18T09:00" min="2022-04-19T09:00" max="2022-04-25T18:00">
+            </div>
+
+        </div>
+        <div class="contactForm">
+            <form>
+                <h2>Send Message</h2>
+                <div class="inputBox">
+                    <span>Full Name</span>
+                    <input type="text" name="">
+
+                </div>
+                <div class="inputBox">
+                    <span>Email</span>
+                    <input type="text" name="">
+
+                </div>
+                <div class="inputBox">
+                    <span>Type your Message Here</span>
+                    <textarea required="required"></textarea>
+
+                </div>
+                <div class="btn">
+                    <input type="button" value="Submit">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="end">
+        <div class="container">
+            <div class="colums">
+                <div class="c1">
+                    <a href="index.html"> <img src="Photos/Logo.png" alt=""></a>
+                </div>
+                <div class="c2">
+                    <h2 class="h-secondry center">
+                        COMMUNITIES
+                    </h2>
+                    <div style="padding: 5px;">
+                        <a class="links" href="#">Apartments</a>
+                    </div>
+                    <div style="padding: 5px;">
+                        <a class="links" href="#">Flats</a>
+                    </div>
+                    <div style="padding: 5px;">
+                        <a class="links" href="#">Resorts</a>
+                    </div>
+                </div>
+                <div class="c3">
+                    <h2 class="h-secondry center">
+                        CONTACT US
+                    </h2>
+                    <div class="address">
+                        <div style="padding: 5px;">KD Real Estate</div>
+                        <div style="padding: 5px;">690-Kenaston Blvd.</div>
+                        <div style="padding: 5px;">Winnipeg, MB, R3N 1Z3</div>
+                        <div style="padding: 5px;">Phone: (204) 881-0222</div>
+                        <div style="padding: 5px;">Telephone: (204) 123-2345</div>
+                    </div>
+                </div>
+                <div class="c4">
+                    <h2 class="h-secondry center">
+                        QUICK LINKS
+                    </h2>
+                    <div style="padding: 5px;">
+                        <a class="links" href="Contact Us.html">Contact Us</a>
+                    </div>
+                    <div style="padding: 5px;">
+                        <a class="links" href="About Us.html">About Us</a>
+                    </div>
+                    <div style="padding: 5px;">
+                        <a class="links" href="#">Privacy policy</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="up">
+            <a href="#img">
+                <span class="material-icons-outlined">
+                    arrow_upward
+                </span>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.kdestate.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
